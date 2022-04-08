@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <a href="index.html" class="logo">
+          <img
+            src="img/logo.svg"
+            width="160"
+            height="67"
+            alt="Логотип компании Nerds"
+          />
+        </a>
+        <ul class="menu-list">
+          <li class="menu-list__item">
+            <a class="menu-list__link" href="studio.html">Студия</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__link" href="clients.html">Клиенты</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__link menu-list__link_active">Магазин</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__link" href="contacts.html">Контакты</a>
+          </li>
+        </ul>
+        <ul class="cart-list">
+          <li class="cart-list__item">
+            <a href="cart.html" class="cart-list link">Корзина</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <h1>Магазин готовых шаблонов</h1>
+      <div class="container">
+        <section class="filters">
+          <h2 class="visually-hidden">Фильтр шаблонов</h2>
+          <!-- Здесь будет форма -->
+        </section>
+        <section class="catalog">
+          <h2 class="visually-hidden">Шаблоны магазинов</h2>
+          <div class="catalog__sort sort">
+            <p>Сортировать:</p>
+            <ul class="sort__list">
+              <li class="sort__item">
+                <a href="#" class="sort__link">По цене</a>
+              </li>
+              <li class="sort__item">
+                <a href="#" class="sort__link">По типу</a>
+              </li>
+              <li class="sort__item">
+                <a href="#" class="sort__link">По названию</a>
+              </li>
+              <li class="sort__item">
+                <a href="#" class="sort__link"
+                  ><span class="visually-hidden">По убыванию</span></a
+                >
+              </li>
+              <li class="sort__item">
+                <a href="#" class="sort__link"
+                  ><span class="visually-hidden">По возрастанию</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <img
+                src="img/sedona"
+                width="360"
+                height="576"
+                alt="Шаблон сайта Седона"
+              />
+              <div class="catalog__item-wrapper">
+                <h3 class="catalog__item-title">Sedona</h3>
+                <p class="catalog__item-desc">
+                  Информационный сайт для туристов
+                </p>
+                <a class="catalog__item-link" href="#">9900 руб.</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img
+                src="img/pink_app"
+                width="360"
+                height="576"
+                alt="Шаблон сайта Пинк Эп"
+              />
+              <div class="catalog__item-wrapper">
+                <h3 class="catalog__item-title">Pink app</h3>
+                <p class="catalog__item-desc">
+                  Продуктовый лендинг приложения для iOS и Android
+                </p>
+                <a class="catalog__item-link" href="#">9900 руб.</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img
+                src="img/barbershop"
+                width="360"
+                height="576"
+                alt="Шаблон сайта Барбершоп"
+              />
+              <div class="catalog__item-wrapper">
+                <h3 class="catalog__item-title">Barbershop</h3>
+                <p class="catalog__item-desc">
+                  Сайт салона красоты. Для мужчин, да.
+                </p>
+                <a class="catalog__item-link" href="#">9900 руб.</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img
+                src="img/mishka"
+                width="360"
+                height="576"
+                alt="Шаблон сайта Мишка"
+              />
+              <div class="catalog__item-wrapper">
+                <h3 class="catalog__item-title">Mishka</h3>
+                <p class="catalog__item-desc">
+                  Интернет-магазин вязаных игрушек
+                </p>
+                <a class="catalog__item-link" href="#">9900 руб.</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img
+                src="img/a_plus"
+                width="360"
+                height="576"
+                alt="Шаблон сайта А-плюс"
+              />
+              <div class="catalog__item-wrapper">
+                <h3 class="catalog__item-title">A Plus</h3>
+                <p class="catalog__item-desc">
+                  Лендинг курсов повышения квалификации
+                </p>
+                <a class="catalog__item-link" href="#">9900 руб.</a>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <img
+                src="img/kvast"
+                width="360"
+                height="576"
+                alt="Шаблон сайта Кваст"
+              />
+              <div class="catalog__item-wrapper">
+                <h3 class="catalog__item-title">Кваст</h3>
+                <p class="catalog__item-desc">
+                  Промо-сайт производителя крафтового кваса
+                </p>
+                <a class="catalog__item-link" href="#">9900 руб.</a>
+              </div>
+            </li>
+          </ul>
+          <ul class="pagination">
+            <li class="pagination__item pagination__item_active">
+              <a class="pagination__link">1</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">2</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">3</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">Следующая</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <section class="contacts">
+        <h2 class="visually-hidden">Контактная информация</h2>
+        <img src="img/map" width="1442" height="418" alt="Адрес на карте" />
+        <div class="contacts__wrapper">
+          <p class="contacts__team">NЁRDS DESIGN STUDIO</p>
+          <p class="contacts__address">
+            191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+          </p>
+          <a href="tel:+78122757575" class="contacts__tel">
+            тел. +7 (812) 275-75-75
+          </a>
+          <a href="#" class="contants__link">Напишите нам</a>
+        </div>
+      </section>
+      <section class="social">
+        <h2 class="visually-hidden">Наши социальные сети</h2>
+        <ul class="social__list">
+          <li class="social__item">
+            <a href="#" class="social__link"
+              ><span class="visually-hidden">Вконтакте</span></a
+            >
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link"
+              ><span class="visually-hidden">Фэйсбук</span></a
+            >
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link"
+              ><span class="visually-hidden">Инстаграм</span></a
+            >
+          </li>
+        </ul>
+        <p class="social__slogan">
+          <span class="social__title">Давайте дружить, это выгодно!</span>
+          <span class="social__desc"
+            >Скидка 10% для друзей из социальных сетей.</span
+          >
+        </p>
+      </section>
+    </footer>
+
+    <section class="modal">
+      <h2>Напишите нам</h2>
+      <!-- Здесь будет форма -->
+      <span class="modal__close-btn">x</span>
+    </section>
+  </body>
+</html>
