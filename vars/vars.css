@@ -1,8 +1,6 @@
 :root {
   --primary-text-color: #000;
+  --secondary-text-color: #283136;
   --primary-bg-color: #F2F2F2;
-}
-
-.header {
-  background-color: var(--primary-bg-color);
+  --hover-text-color: #FB565A;
 }

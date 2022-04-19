@@ -1,0 +1,14 @@
+.slider__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 50px;
+  border-radius: 3px;
+  margin-bottom: 80px;
+
+  background: #fb565a;
+  color: #fff;
+}

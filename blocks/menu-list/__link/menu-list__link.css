@@ -1,0 +1,17 @@
+.menu-list__link {
+  margin: 0;
+  padding: 23px 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.menu-list__link:hover {
+  color: var(--hover-text-color);
+}
+
+.menu-list__link:active {
+  color: var(--primary-text-color);
+  opacity: .3;
+}

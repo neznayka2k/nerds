@@ -1,0 +1,26 @@
+.cart-list__link {
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+  padding-left: 35px;
+}
+
+.cart-list__link:hover {
+  color: var(--hover-text-color);
+}
+
+.cart-list__link:active {
+  color: var(--primary-text-color);
+  opacity: .3;
+}
+
+.cart-list__link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background: url(../../../img/cart-icon.svg) center center;
+}

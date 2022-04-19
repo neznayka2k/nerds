@@ -1,0 +1,16 @@
+.slider__item {
+  width: 1200px;
+  display: none;
+}
+
+.slider__item:nth-child(1) {
+  background: url(../../../img/slide1.png) no-repeat right bottom;
+}
+
+.slider__item:nth-child(2) {
+  background: url(../../../img/slide2.png) no-repeat right bottom;
+}
+
+.slider__item:nth-child(3) {
+  background: url(../../../img/slide3.png) no-repeat right bottom;
+}
