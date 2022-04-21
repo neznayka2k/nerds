@@ -1,0 +1,12 @@
+.contacts__tel {
+  margin: 0 0 38px;
+  padding: 0;
+  display: block;
+  text-decoration: none;
+  line-height: 18px;
+  color: #666666;
+}
+
+.contacts__tel:hover {
+  color: var(--hover-text-color);
+}

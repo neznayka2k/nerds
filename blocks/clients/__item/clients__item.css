@@ -1,0 +1,7 @@
+.clients__item {
+  opacity: .2;
+}
+
+.clients__item:hover {
+  opacity: 1;
+}

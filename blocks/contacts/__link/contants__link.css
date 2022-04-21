@@ -1,0 +1,25 @@
+.contants__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 219px;
+  height: 50px;
+  background-color: var(--hover-text-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition: .1s ease;
+}
+
+.contants__link:hover {
+  color: var(--secondary-text-color);
+  background-color: #fff;
+  border: 2px solid var(--hover-text-color);
+}

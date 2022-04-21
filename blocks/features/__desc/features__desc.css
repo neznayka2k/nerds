@@ -1,0 +1,9 @@
+.features__desc {
+  margin: 0 0 41px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--secondary-text-color);
+}

@@ -40,3 +40,56 @@
 @import url(../blocks/advantages/__link/advantages__link.css);
 @import url(../blocks/advantages/__link/_color/advantages__link_color_green.css);
 @import url(../blocks/advantages/__link/_color/advantages__link_color_yellow.css);
+
+@import url(../blocks/features/features.css);
+@import url(../blocks/features/__left-wrapper/features__left-wrapper.css);
+@import url(../blocks/features/__right-wrapper/features__right-wrapper.css);
+@import url(../blocks/features/__title/features__title.css);
+@import url(../blocks/features/__desc/features__desc.css);
+@import url(../blocks/features/__heading/features__heading.css);
+@import url(../blocks/features/__dev-list/features__dev-list.css);
+@import url(../blocks/features/__dev-item/features__dev-item.css);
+@import url(../blocks/features/__img/features__img.css);
+@import url(../blocks/features/__subheading/features__subheading.css);
+@import url(../blocks/features/__percent-list/features__percent-list.css);
+@import url(../blocks/features/__percent-item/features__percent-item.css);
+@import url(../blocks/features/__percent-title/features__percent-title.css);
+@import url(../blocks/features/__percent-desc/features__percent-desc.css);
+@import url(../blocks/features/__percent/features__percent.css);
+
+@import url(../blocks/clients/clients.css);
+@import url(../blocks/clients/__list/clients__list.css);
+@import url(../blocks/clients/__item/clients__item.css);
+@import url(../blocks/clients/__img/clients__img.css);
+@import url(../blocks/clients/__img/_height_52/clients__img_height_52.css);
+@import url(../blocks/clients/__img/_height_68/clients__img_height_68.css);
+@import url(../blocks/clients/__img/_height_84/clients__img_height_84.css);
+@import url(../blocks/clients/__img/_height_90/clients__img_height_90.css);
+@import url(../blocks/clients/__img/_width_173/clients__img_width_173.css);
+@import url(../blocks/clients/__img/_width_185/clients__img_width_185.css);
+@import url(../blocks/clients/__img/_width_199/clients__img_width_199.css);
+@import url(../blocks/clients/__img/_width_209/clients__img_width_209.css);
+
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__wrapper/contacts__wrapper.css);
+@import url(../blocks/contacts/__team/contacts__team.css);
+@import url(../blocks/contacts/__address/contacts__address.css);
+@import url(../blocks/contacts/__tel/contacts__tel.css);
+@import url(../blocks/contacts/__link/contants__link.css);
+
+@import url(../blocks/map/map.css);
+
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__list/social__list.css);
+@import url(../blocks/social/__item/social__item.css);
+@import url(../blocks/social/__link/social__link.css);
+@import url(../blocks/social/__link/_network_vk/social__link_network_vk.css);
+@import url(../blocks/social/__link/_network_fb/social__link_network_fb.css);
+@import url(../blocks/social/__link/_network_instagram/social__link_network_instagram.css);
+@import url(../blocks/social/__slogan/social__slogan.css);
+@import url(../blocks/social/__title/social__title.css);
+@import url(../blocks/social/__desc/social__desc.css);
+
+@import url(../blocks/modal/modal.css);

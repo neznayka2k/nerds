@@ -1,0 +1,4 @@
+.clients__img {
+  object-fit: cover;
+  object-position: center;
+}

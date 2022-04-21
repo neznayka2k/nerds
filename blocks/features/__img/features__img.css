@@ -1,0 +1,7 @@
+.features__img {
+  width: 360px;
+  height: 208px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 35px;
+}

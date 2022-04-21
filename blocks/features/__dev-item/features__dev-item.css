@@ -1,0 +1,15 @@
+.features__dev-item {
+  position: relative;
+  padding-left: 40px;
+}
+
+.features__dev-item::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: calc(50% - 1px);
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: var(--hover-text-color);
+}
