@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Интернет-магазин Nerds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body class="page">
@@ -37,32 +43,39 @@
           </li>
         </ul>
       </nav>
-      <ul class="slider">
-        <li class="slider__item">
-          <p class="slider__title">Долго, дорого, скрупулезно.</p>
-          <p class="slider__desc">
-            Математически выверенный дизайн для вашего сайта или мобильного
-            приложения.
-          </p>
-          <a href="#" class="slider__link">Узнать больше</a>
-        </li>
-        <li class="slider__item">
-          <p class="slider__title">Любим математику как никто другой</p>
-          <p class="slider__desc">
-            Никакого креатива, только математические формулы для расчета
-            идеальных пропорций.
-          </p>
-          <a href="#" class="slider__link">Узнать больше</a>
-        </li>
-        <li class="slider__item slider__item_visible">
-          <p class="slider__title">Только ночь, только хардкор</p>
-          <p class="slider__desc">
-            Работать днем, как все? Мы против этого. Ближе к полуночи работа
-            только начинается.
-          </p>
-          <a href="#" class="slider__link">Узнать больше</a>
-        </li>
-      </ul>
+      <div class="slider">
+        <ul class="slider-list">
+          <li class="slider-list__item">
+            <p class="slider-list__title">Долго, дорого, скрупулезно.</p>
+            <p class="slider-list__desc">
+              Математически выверенный дизайн для вашего сайта или мобильного
+              приложения.
+            </p>
+            <a href="#" class="slider-list__link">Узнать больше</a>
+          </li>
+          <li class="slider-list__item">
+            <p class="slider-list__title">Любим математику как никто другой</p>
+            <p class="slider-list__desc">
+              Никакого креатива, только математические формулы для расчета
+              идеальных пропорций.
+            </p>
+            <a href="#" class="slider-list__link">Узнать больше</a>
+          </li>
+          <li class="slider-list__item slider-list__item_visible">
+            <p class="slider-list__title">Только ночь, только хардкор</p>
+            <p class="slider-list__desc">
+              Работать днем, как все? Мы против этого. Ближе к полуночи работа
+              только начинается.
+            </p>
+            <a href="#" class="slider-list__link">Узнать больше</a>
+          </li>
+        </ul>
+        <div class="slider__controls">
+          <button class="slider__btn" type="button"></button>
+          <button class="slider__btn" type="button"></button>
+          <button class="slider__btn slider__btn_active" type="button"></button>
+        </div>
+      </div>
     </header>
     <main class="content">
       <h1 class="visually-hidden">Интернет-магазин Nerds</h1>
@@ -71,7 +84,7 @@
         <ul class="advantages__list">
           <li class="advantages__item">
             <img
-              src="img/1"
+              src="img/illustration-1.jpg"
               alt="Изображение веб-сайта"
               class="advantages__img"
             />
@@ -83,7 +96,7 @@
           </li>
           <li class="advantages__item">
             <img
-              src="img/2"
+              src="img/illustration-2.jpg"
               alt="Изображение приложения"
               class="advantages__img"
             />
@@ -91,11 +104,13 @@
             <p class="advantages__desc">
               Покорите топ-10 приложений в AppStore и Google Play
             </p>
-            <a href="#" class="advantages__link">Заказать</a>
+            <a href="#" class="advantages__link advantages__link_color_green"
+              >Заказать</a
+            >
           </li>
           <li class="advantages__item">
             <img
-              src="img/3"
+              src="img/illustration-3.jpg"
               alt="Изображение презентаций"
               class="advantages__img"
             />
@@ -103,7 +118,9 @@
             <p class="advantages__desc">
               Вы даже не подозреваете, насколько вы изумительны!
             </p>
-            <a href="#" class="advantages__link">Заказать</a>
+            <a href="#" class="advantages__link advantages__link_color_yellow"
+              >Заказать</a
+            >
           </li>
         </ul>
       </section>

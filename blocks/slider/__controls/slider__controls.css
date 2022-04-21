@@ -1,0 +1,10 @@
+.slider__controls {
+  position: absolute;
+  left: calc(50% - 45px);
+  bottom: 23%;
+  width: 90px;
+  height: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

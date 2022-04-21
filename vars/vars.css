@@ -3,4 +3,19 @@
   --secondary-text-color: #283136;
   --primary-bg-color: #F2F2F2;
   --hover-text-color: #FB565A;
+  --secondary-btn-color: #00CA74;
+  --third-btn-color: #EFC84A;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }

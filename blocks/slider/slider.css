@@ -1,12 +1,4 @@
 .slider {
   position: relative;
-  width: 1200px;
   margin: 0 auto;
-  list-style: none;
-  padding: 0;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: row;
 }

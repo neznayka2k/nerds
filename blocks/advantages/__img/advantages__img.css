@@ -1,0 +1,6 @@
+.advantages__img {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 20px;
+}
