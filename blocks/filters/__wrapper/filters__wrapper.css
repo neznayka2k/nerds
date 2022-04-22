@@ -1,0 +1,7 @@
+.filters__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 54px;
+}

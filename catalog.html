@@ -44,16 +44,16 @@
     </header>
     <main class="main">
       <h1 class="catalog-title">Магазин готовых шаблонов</h1>
-      <div class="content">
+      <div class="filters__wrapper">
         <section class="filters">
           <h2 class="visually-hidden">Фильтр шаблонов</h2>
-          <form
+          <form class="filters__form"
             action="https://echo.htmlacademy.ru"
             class="filters__filter"
             method="get"
           >
-            <fieldset>
-              <legend>Стоимость:</legend>
+            <fieldset class="filters__item">
+              <legend class="filters__heading">Стоимость:</legend>
               <div class="range-slider">
                 <div class="range-slider__track">
                   <div class="range-slider__scale">
@@ -82,8 +82,8 @@
                 </div>
               </div>
             </fieldset>
-            <fieldset>
-              <legend>Сетка:</legend>
+            <fieldset class="filters__item">
+              <legend class="filters__heading">Сетка:</legend>
               <ul>
                 <li>
                   <input id="radio" type="radio" name="product-net" />
@@ -99,8 +99,8 @@
                 </li>
               </ul>
             </fieldset>
-            <fieldset>
-              <legend>Особенности:</legend>
+            <fieldset class="filters__item">
+              <legend class="filters__heading">Особенности:</legend>
               <ul>
                 <li>
                   <input type="checkbox" />
@@ -124,6 +124,7 @@
                 </li>
               </ul>
             </fieldset>
+            <button type="submit" class="filters__show-btn">Показать</button>
           </form>
         </section>
         <section class="catalog">
