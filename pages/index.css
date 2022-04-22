@@ -109,9 +109,11 @@
 @import url(../blocks/catalog-title/catalog-title.css);
 
 @import url(../blocks/filters/__wrapper/filters__wrapper.css);
-@import url(../blocks/filters/filters.css);
+/* @import url(../blocks/filters/filters.css); */
 @import url(../blocks/filters/__item/filters__item.css);
 @import url(../blocks/filters/__form/filters__form.css);
 @import url(../blocks/filters/__heading/filters__heading.css);
+
+@import url(../blocks/grid-list/grid-list.css);
 
 @import url(../blocks/range-slider/range-slider.css);

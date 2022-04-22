@@ -47,7 +47,8 @@
       <div class="filters__wrapper">
         <section class="filters">
           <h2 class="visually-hidden">Фильтр шаблонов</h2>
-          <form class="filters__form"
+          <form
+            class="filters__form"
             action="https://echo.htmlacademy.ru"
             class="filters__filter"
             method="get"
@@ -84,18 +85,33 @@
             </fieldset>
             <fieldset class="filters__item">
               <legend class="filters__heading">Сетка:</legend>
-              <ul>
-                <li>
-                  <input id="radio" type="radio" name="product-net" />
-                  <label for="">Адаптивная</label>
+              <ul class="grid-list">
+                <li class="grid-list__item">
+                  <input class="grid-list__radio"
+                    id="adaptive-btn"
+                    type="radio"
+                    name="product-net"
+                    value="adaptive"
+                  />
+                  <label class="grid-list__label" for="adaptive-btn">Адаптивная</label>
                 </li>
-                <li>
-                  <input id="radio" type="radio" name="product-net" f />
-                  <label for="">Фиксированная</label>
+                <li class="grid-list__item">
+                  <input class="grid-list__radio"
+                    id="fix-btn"
+                    type="radio"
+                    name="product-net"
+                    value="fix"
+                  />
+                  <label class="grid-list__label" for="fix-btn">Фиксированная</label>
                 </li>
-                <li>
-                  <input id="radio" type="radio" name="product-net" f />
-                  <label for="">Резиновая</label>
+                <li class="grid-list__item">
+                  <input class="grid-list__radio"
+                    id="elastic-btn"
+                    type="radio"
+                    name="product-net"
+                    value="elastic"
+                  />
+                  <label class="grid-list__label" for="elastic-btn">Резиновая</label>
                 </li>
               </ul>
             </fieldset>
