@@ -251,10 +251,54 @@
       </section>
     </footer>
 
-    <section class="modal">
-      <h2>Напишите нам</h2>
-      <!-- Здесь будет форма -->
-      <span class="modal__close-btn">x</span>
+    <section class="modal modal_active">
+      <div class="modal__wrapper-top">
+        <h2 class="modal__title">Напишите нам</h2>
+        <button class="modal__close-btn" type="button"></button>
+      </div>
+      <form
+        class="modal__form form"
+        action="https://echo.htmlacademy.ru"
+        method="post"
+      >
+        <p class="form__item">
+          <label for="user-name" class="form__label">Ваше имя:</label>
+          <input
+            class="form__input"
+            type="text"
+            id="user-name"
+            name="name"
+            placeholder="Имя Фамилия"
+            value=""
+          />
+        </p>
+        <p class="form__item">
+          <label for="user-email" class="form__label">Ваш e-mail:</label>
+          <input
+            class="form__input"
+            type="email"
+            id="user-email"
+            name="email"
+            placeholder="email@example.com"
+            value=""
+          />
+        </p>
+        <p class="form__item">
+          <label for="user-letter" class="form__label"
+            >Текст письма:</label
+          >
+          <textarea
+            class="form__input form__input_width_large"
+            type=""
+            id="user-letter"
+            name="letter"
+            placeholder="В свободной форме"
+            value=""
+          >
+          </textarea>
+        </p>
+        <button class="form__button" type="submit">Отправить</button>
+      </form>
     </section>
   </body>
 </html>

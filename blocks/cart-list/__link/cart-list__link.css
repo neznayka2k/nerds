@@ -3,7 +3,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: var(--primary-text-color);
-  padding-left: 35px;
+  padding: 23px 23px 23px 35px;
 }
 
 .cart-list__link:hover {
@@ -18,7 +18,7 @@
 .cart-list__link::before {
   content: '';
   position: absolute;
-  top: 0;
+  top: calc(50% - 8px);
   left: 0;
   width: 16px;
   height: 16px;
