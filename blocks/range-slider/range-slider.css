@@ -1,0 +1,89 @@
+.range-slider {
+  width: 260px;
+}
+
+.range-slider__track {
+  position: relative;
+  background-color: var(--primary-bg-color);
+  width: 260px;
+  height: 84px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.range-slider__scale {
+  width: 220px;
+  height: 2px;
+  background-color: #d7dcde;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.range-slider__bar {
+  width: 60%;
+  height: 2px;
+  background-color: #00ca74;
+  margin: auto 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.range-slider__pin {
+  position: absolute;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgb(0 1 1 / 20%);
+  cursor: pointer;
+  margin: auto 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.range-slider__pin_min {
+  left: 8px;
+}
+.range-slider__pin_max {
+  left: 115px;
+}
+
+.range-slider__price-controls {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 38px;
+}
+.range-slider__lable {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #283136;
+  margin-right: 13px;
+}
+.range-slider__number {
+  width: 80px;
+  height: 38px;
+  border: none;
+  box-sizing: border-box;
+  background-color: #eee;
+  border-radius: 5px;
+  margin-right: 29px;
+  text-align: center;
+  padding: 0;
+}

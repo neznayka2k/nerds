@@ -1,3 +1,3 @@
 .menu-list__link_active {
-  border-bottom: 2px solid var(--hover-text-color);
+  border-bottom: 3px solid var(--hover-text-color);
 }

@@ -1,0 +1,11 @@
+.catalog-title {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  width: 100%;
+  padding: 73px 0 115px;
+  background-color: var(--primary-bg-color);
+  text-align: center;
+}

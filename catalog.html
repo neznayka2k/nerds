@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Каталог</title>
-    <link rel="stylesheet" href="pages/index.css">
+    <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body class="page">
     <header class="header">
       <nav class="main-nav">
         <a href="index.html" class="logo">
           <img
+            class="logo__image"
             src="img/logo.svg"
-            width="160"
-            height="67"
             alt="Логотип компании Nerds"
           />
         </a>
@@ -26,7 +25,11 @@
             <a class="menu-list__link" href="clients.html">Клиенты</a>
           </li>
           <li class="menu-list__item">
-            <a class="menu-list__link menu-list__link_active">Магазин</a>
+            <a
+              class="menu-list__link menu-list__link_active"
+              href="catalog.html"
+              >Магазин</a
+            >
           </li>
           <li class="menu-list__item">
             <a class="menu-list__link" href="contacts.html">Контакты</a>
@@ -34,17 +37,94 @@
         </ul>
         <ul class="cart-list">
           <li class="cart-list__item">
-            <a href="cart.html" class="cart-list link">Корзина</a>
+            <a href="cart.html" class="cart-list__link">Корзина</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main">
-      <h1>Магазин готовых шаблонов</h1>
-      <div class="container">
+      <h1 class="catalog-title">Магазин готовых шаблонов</h1>
+      <div class="content">
         <section class="filters">
           <h2 class="visually-hidden">Фильтр шаблонов</h2>
-          <!-- Здесь будет форма -->
+          <form
+            action="https://echo.htmlacademy.ru"
+            class="filters__filter"
+            method="get"
+          >
+            <fieldset>
+              <legend>Стоимость:</legend>
+              <div class="range-slider">
+                <div class="range-slider__track">
+                  <div class="range-slider__scale">
+                    <div class="range-slider__bar"></div>
+                  </div>
+                  <div class="range-slider__pin range-slider__pin_min"></div>
+                  <div class="range-slider__pin range-slider__pin_max"></div>
+                </div>
+                <div class="range-slider__price-controls">
+                  <label class="range-slider__lable" for="min-price">от</label>
+                  <input
+                    class="range-slider__number"
+                    type="number"
+                    id="min-price"
+                    value="0"
+                    name="min"
+                  />
+                  <label class="range-slider__lable" for="max-price">до</label>
+                  <input
+                    class="range-slider__number"
+                    type="number"
+                    id="max-price"
+                    value="15000"
+                    name="max"
+                  />
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Сетка:</legend>
+              <ul>
+                <li>
+                  <input id="radio" type="radio" name="product-net" />
+                  <label for="">Адаптивная</label>
+                </li>
+                <li>
+                  <input id="radio" type="radio" name="product-net" f />
+                  <label for="">Фиксированная</label>
+                </li>
+                <li>
+                  <input id="radio" type="radio" name="product-net" f />
+                  <label for="">Резиновая</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Особенности:</legend>
+              <ul>
+                <li>
+                  <input type="checkbox" />
+                  <label for="">Слайдер</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label for="">Блок преимуществ</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label for="">Новости</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label for="">Галерея</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label for="">Корзина</label>
+                </li>
+              </ul>
+            </fieldset>
+          </form>
         </section>
         <section class="catalog">
           <h2 class="visually-hidden">Шаблоны магазинов</h2>
@@ -182,9 +262,9 @@
       </div>
     </main>
     <footer class="footer">
+      <img class="map" src="img/map.jpg" alt="Адрес на карте" />
       <section class="contacts">
         <h2 class="visually-hidden">Контактная информация</h2>
-        <img src="img/map" width="1442" height="418" alt="Адрес на карте" />
         <div class="contacts__wrapper">
           <p class="contacts__team">NЁRDS DESIGN STUDIO</p>
           <p class="contacts__address">
@@ -200,17 +280,17 @@
         <h2 class="visually-hidden">Наши социальные сети</h2>
         <ul class="social__list">
           <li class="social__item">
-            <a href="#" class="social__link"
+            <a href="#" class="social__link social__link_network_vk"
               ><span class="visually-hidden">Вконтакте</span></a
             >
           </li>
           <li class="social__item">
-            <a href="#" class="social__link"
+            <a href="#" class="social__link social__link_network_fb"
               ><span class="visually-hidden">Фэйсбук</span></a
             >
           </li>
           <li class="social__item">
-            <a href="#" class="social__link"
+            <a href="#" class="social__link social__link_network_instagram"
               ><span class="visually-hidden">Инстаграм</span></a
             >
           </li>
@@ -225,9 +305,51 @@
     </footer>
 
     <section class="modal">
-      <h2>Напишите нам</h2>
-      <!-- Здесь будет форма -->
-      <span class="modal__close-btn">x</span>
+      <div class="modal__wrapper-top">
+        <h2 class="modal__title">Напишите нам</h2>
+        <button class="modal__close-btn" type="button"></button>
+      </div>
+      <form
+        class="modal__form form"
+        action="https://echo.htmlacademy.ru"
+        method="post"
+      >
+        <p class="form__item">
+          <label for="user-name" class="form__label">Ваше имя:</label>
+          <input
+            class="form__input"
+            type="text"
+            id="user-name"
+            name="name"
+            placeholder="Имя Фамилия"
+            value=""
+          />
+        </p>
+        <p class="form__item">
+          <label for="user-email" class="form__label">Ваш e-mail:</label>
+          <input
+            class="form__input"
+            type="email"
+            id="user-email"
+            name="email"
+            placeholder="email@example.com"
+            value=""
+          />
+        </p>
+        <p class="form__item">
+          <label for="user-letter" class="form__label">Текст письма:</label>
+          <textarea
+            class="form__input form__input_width_large"
+            type=""
+            id="user-letter"
+            name="letter"
+            placeholder="В свободной форме"
+            value=""
+          >
+          </textarea>
+        </p>
+        <button class="form__button" type="submit">Отправить</button>
+      </form>
     </section>
   </body>
 </html>
