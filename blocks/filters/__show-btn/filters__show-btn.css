@@ -1,0 +1,22 @@
+.filters__show-btn {
+  width: 260px;
+  height: 50px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #eee;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000;
+  cursor: pointer;
+}
+.filters__show-btn:hover {
+  background-color: #dfdfdf;
+}
+.filters__show-btn:active {
+  background: #d5d5d5;
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+  color: rgba(0, 0, 0, 0.3);
+}

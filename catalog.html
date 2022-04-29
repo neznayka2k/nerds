@@ -87,56 +87,105 @@
               <legend class="filters__heading">Сетка:</legend>
               <ul class="grid-list">
                 <li class="grid-list__item">
-                  <input class="grid-list__radio"
+                  <input
+                    class="grid-list__radio"
                     id="adaptive-btn"
                     type="radio"
                     name="product-net"
                     value="adaptive"
+                    checked
                   />
-                  <label class="grid-list__label" for="adaptive-btn">Адаптивная</label>
+                  <label class="grid-list__label" for="adaptive-btn"
+                    >Адаптивная</label
+                  >
                 </li>
                 <li class="grid-list__item">
-                  <input class="grid-list__radio"
+                  <input
+                    class="grid-list__radio"
                     id="fix-btn"
                     type="radio"
                     name="product-net"
                     value="fix"
                   />
-                  <label class="grid-list__label" for="fix-btn">Фиксированная</label>
+                  <label class="grid-list__label" for="fix-btn"
+                    >Фиксированная</label
+                  >
                 </li>
                 <li class="grid-list__item">
-                  <input class="grid-list__radio"
+                  <input
+                    class="grid-list__radio"
                     id="elastic-btn"
                     type="radio"
                     name="product-net"
                     value="elastic"
                   />
-                  <label class="grid-list__label" for="elastic-btn">Резиновая</label>
+                  <label class="grid-list__label" for="elastic-btn"
+                    >Резиновая</label
+                  >
                 </li>
               </ul>
             </fieldset>
             <fieldset class="filters__item">
               <legend class="filters__heading">Особенности:</legend>
-              <ul>
-                <li>
-                  <input type="checkbox" />
-                  <label for="">Слайдер</label>
+              <ul class="hang-list">
+                <li class="hang-list__item">
+                  <input
+                    class="hang-list__checkbox"
+                    id="hang-list-slider"
+                    type="checkbox"
+                    name="slider"
+                    value="slider"
+                    checked
+                  />
+                  <label class="hang-list__label" for="hang-list-slider"
+                    >Слайдер</label
+                  >
                 </li>
-                <li>
-                  <input type="checkbox" />
-                  <label for="">Блок преимуществ</label>
+                <li class="hang-list__item">
+                  <input
+                    class="hang-list__checkbox"
+                    id="hang-list-advantage"
+                    type="checkbox"
+                    name="advantage"
+                    value="advantage"
+                  />
+                  <label class="hang-list__label" for="hang-list-advantage"
+                    >Блок преимуществ</label
+                  >
                 </li>
-                <li>
-                  <input type="checkbox" />
-                  <label for="">Новости</label>
+                <li class="hang-list__item">
+                  <input
+                    class="hang-list__checkbox"
+                    id="hang-list-news"
+                    type="checkbox"
+                    name="news"
+                    value="news"
+                  />
+                  <label class="hang-list__label" for="hang-list-news"
+                    >Новости</label
+                  >
                 </li>
-                <li>
-                  <input type="checkbox" />
-                  <label for="">Галерея</label>
+                <li class="hang-list__item">
+                  <input
+                    class="hang-list__checkbox"
+                    id="hang-list-galery"
+                    type="checkbox"
+                    name="galery"
+                    value="galery"
+                  />
+                  <label class="hang-list__label" for="hang-list-galery"
+                    >Галерея</label
+                  >
                 </li>
-                <li>
-                  <input type="checkbox" />
-                  <label for="">Корзина</label>
+                <li class="hang-list__item">
+                  <input
+                    class="hang-list__checkbox"
+                    id="hang-list-cart"
+                    type="checkbox"
+                    name="cart"
+                    value="cart"
+                  />
+                  <label class="hang-list__label" for="hang-list-cart">Корзина</label>
                 </li>
               </ul>
             </fieldset>
