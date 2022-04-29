@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Каталог</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body class="page">
@@ -25,11 +31,7 @@
             <a class="menu-list__link" href="clients.html">Клиенты</a>
           </li>
           <li class="menu-list__item">
-            <a
-              class="menu-list__link menu-list__link_active"
-              href="catalog.html"
-              >Магазин</a
-            >
+            <a class="menu-list__link menu-list__link_active" href="catalog.html">Магазин</a>
           </li>
           <li class="menu-list__item">
             <a class="menu-list__link" href="contacts.html">Контакты</a>
@@ -185,7 +187,9 @@
                     name="cart"
                     value="cart"
                   />
-                  <label class="hang-list__label" for="hang-list-cart">Корзина</label>
+                  <label class="hang-list__label" for="hang-list-cart"
+                    >Корзина</label
+                  >
                 </li>
               </ul>
             </fieldset>
@@ -195,10 +199,10 @@
         <section class="catalog">
           <h2 class="visually-hidden">Шаблоны магазинов</h2>
           <div class="catalog__sort sort">
-            <p>Сортировать:</p>
+            <p class="sort__title">Сортировать:</p>
             <ul class="sort__list">
               <li class="sort__item">
-                <a href="#" class="sort__link">По цене</a>
+                <a href="#" class="sort__link sort__link_active">По цене</a>
               </li>
               <li class="sort__item">
                 <a href="#" class="sort__link">По типу</a>
@@ -220,8 +224,10 @@
           </div>
           <ul class="catalog__list">
             <li class="catalog__item">
+              <span class="catalog__decor-img"></span>
               <img
-                src="img/sedona"
+                class="catalog__img"
+                src="./img/img-sedona.jpg"
                 width="360"
                 height="576"
                 alt="Шаблон сайта Седона"
@@ -235,8 +241,9 @@
               </div>
             </li>
             <li class="catalog__item">
+              <span class="catalog__decor-img"></span>
               <img
-                src="img/pink_app"
+                src="./img/img-pink.jpg"
                 width="360"
                 height="576"
                 alt="Шаблон сайта Пинк Эп"
@@ -250,8 +257,9 @@
               </div>
             </li>
             <li class="catalog__item">
+              <span class="catalog__decor-img"></span>
               <img
-                src="img/barbershop"
+                src="./img/img-barbershop.jpg"
                 width="360"
                 height="576"
                 alt="Шаблон сайта Барбершоп"
@@ -265,8 +273,9 @@
               </div>
             </li>
             <li class="catalog__item">
+              <span class="catalog__decor-img"></span>
               <img
-                src="img/mishka"
+                src="./img/img-mishka.jpg"
                 width="360"
                 height="576"
                 alt="Шаблон сайта Мишка"
@@ -280,8 +289,9 @@
               </div>
             </li>
             <li class="catalog__item">
+              <span class="catalog__decor-img"></span>
               <img
-                src="img/a_plus"
+                src="./img/img-aplus.jpg"
                 width="360"
                 height="576"
                 alt="Шаблон сайта А-плюс"
@@ -295,8 +305,9 @@
               </div>
             </li>
             <li class="catalog__item">
+              <span class="catalog__decor-img"></span>
               <img
-                src="img/kvast"
+                src="./img/img-kvast.jpg"
                 width="360"
                 height="576"
                 alt="Шаблон сайта Кваст"
